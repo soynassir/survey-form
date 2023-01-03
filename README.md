@@ -1,2 +1,2 @@
-# survey-form
-Project: building a Survey Form from freeCodeCamp.org
+# Project: Survey Form
+Building a Survey Form task from freeCodeCamp.org.
