@@ -1,0 +1,100 @@
+body {
+    background-image: linear-gradient(45deg, rgba(255, 255, 0, 0.5),
+    rgba(0, 0, 255, 0.541)), url(/office-meeting.jpeg);
+    font-family: sans-serif;
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    color: white;
+}
+
+header {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.907);
+}
+
+#title {
+    font-size: 35px;
+    margin-top: 50px;
+}
+
+#description {
+    margin-top: -15px;
+}
+
+main {
+    background-color: rgba(0, 0, 255, 0.472);
+    border: 5px solid rgba(0, 0, 255, 0.265);
+    border-radius: 30px;
+    width: 60%;
+    margin: auto;
+}
+
+form {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+fieldset {
+    margin-top: -10px;
+    border: none;
+}
+
+label {
+    margin-bottom: 10px;
+    display: block;
+}
+
+input[id="name"], input[id="email"], input[id="number"] {
+    border-radius: 10px;
+    border: none;
+    display: block;
+    font-size: 18px;
+    width: 98%;
+    padding: 10px;
+    margin: 5px 0 20px 0;
+}
+
+select {
+    border-radius: 10px;
+    border: none;
+    display: block;
+    font-size: 18px;
+    width: 100%;
+    height: 40px;
+    padding: 20px;
+    margin: 5px 0 20px 0;
+}
+
+#comment-title {
+    margin-top: 20px;
+}
+
+textarea {
+    display: block;
+    width: 98%;
+    border: 1px solid black;
+    font-size: 18px;
+    padding: 10px;
+    margin: 20px auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+#submit {
+    background-color: green;
+    border: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 15px;
+    width: 97%;
+    padding: 10px;
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+
+span {
+    font-size: 15px;
+}
